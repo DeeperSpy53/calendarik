@@ -66,7 +66,7 @@ function dayClick(elem) {
   
     const cElem = document.createElement('div');
     let childElem = document.createElement("img");
-    childElem.src = "../img/close.svg";
+    childElem.src = "img/close.svg";
     cElem.append(childElem);
 
     let coord = elem.getBoundingClientRect().left-142;
